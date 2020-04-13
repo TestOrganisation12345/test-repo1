@@ -4,9 +4,9 @@
 // The supplied json has fields with names that are not valid in apex
 // and so can only be parsed with explicitly generated code, this option
 // was auto selected for you.
-
+//
 public class WorkItemSearchResults {
-
+//
 	public class Project {
         @AuraEnabled
 		public String name {get;set;} 
